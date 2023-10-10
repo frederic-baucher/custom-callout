@@ -1,0 +1,16 @@
+project:
+  render:
+    - "*.qmd"
+  output-dir: _site
+format:
+  html:
+    theme:
+      - cosmo
+      - diy/callout-example.scss
+  revealjs:
+    filters: 
+      - _extensions/callout-custom/revealjs-callout-custom.lua  
+  beamer:
+    # keep-tex: true
+    include-in-header:
+      file: _extensions/callout-custom/callout-custom.tex

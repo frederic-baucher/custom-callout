@@ -1,0 +1,54 @@
+---
+title: "Callout Tip"
+format:
+  revealjs: default
+  beamer: default
+---
+
+
+## More Resources
+
+:::{.callout-case  data-latex="{Titre dans data-latex 34}"}
+-   Resource 3
+
+-   Resource 4
+:::
+
+## callout-tip
+::: {.callout-tip}
+### Callout title - tip
+Some wild callout
+:::
+
+
+## callout-example with columns
+
+::::: {.columns}
+
+:::: {.column width="60%"}
+
+:::{.callout-case data-latex="{Titre dans data-latex}"}
+<!-- #### Titre dans header -->
+
+Le body avec des puces
+
+- un
+- deux
+
+:::
+
+::::
+
+:::: {.column width="40%"}
+Une autre colonne
+::::
+
+:::::
+
+## Error in title: missing {
+
+:::{.callout-case data-latex="Titre dans data-latex 12"}
+-   Resource 1
+
+-   Resource 2
+:::
