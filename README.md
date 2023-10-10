@@ -17,6 +17,13 @@ format:
       file: _extensions/frederic-baucher/callout-custom/callout-custom.tex
 ```
 
+## Create a custom callout extension
+First, create a fork of this repo.
+Suppose we create the example callout. Then add 3 files to manage the callout in the 3 corresponding format
+- callout-example-html.lua
+- callout-example-revealjs.lua
+- callout-example.tex
+
 # ADR
 
 ## Alternatives selected
