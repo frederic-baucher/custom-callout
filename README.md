@@ -1,6 +1,6 @@
 
 # Need
-Have the syntax in Markdown (compatible with revealjs, beamer and columns) to manage customized callout (nice box).
+For implementing Single Source Publishing based on a common language for all formats (namely Markdown) with help of Quarto, manage a common syntax in Markdown for customized callout (nice box) compatible with revealjs, beamer. It should be possible to put these callouts inside  columns delimited by [fenced div](https://pandoc.org/chunkedhtml-demo/8.18-divs-and-spans.html).
 
 # Installation
 - install the extension
